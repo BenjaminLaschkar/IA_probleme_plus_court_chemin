@@ -1,20 +1,20 @@
-# IA_probleme_plus_court_chemin
+﻿# IA_probleme_plus_court_chemin
 
 Le problème du plus court chemin est un problème algorithmique de la théorie des graphes.
 Ici nous allons utiliser l'exemple connu de la ville de roumanie :
 
-![roumanie](/roumanie.png)
+![roumanie](/image_readme/roumanie.png)
 
 # Algorithme utilisé
 
 Dans ce code on peut utilise l'un des deux algorithmes permettant de choisir le chemin. <br><br>
 Soit grâce à la méthode UCS (uniform cost search) qui est un algorithme d'exploration non informée. Il explore tout les chemins petits à petits et choisit le plus court chemin en fonction des coûts. <br>
   
-![roumanie](/roumanie_UCS.png)
+![roumanie](/image_readme/roumanie_UCS.png)
 
 Soit grâce à la méthode A* (A star) qui est un algorithme d'exploration informée. Il explore le plus court chemin en fonction des couts de chemin ainsi que des coûts des trajets à vol d'oiseaux. <br>
 
-![roumanie](/roumanie_Astar.png)
+![roumanie](/image_readme/roumanie_Astar.png)
 
 # Spécificité du code
 
